@@ -43,7 +43,7 @@ tk.Button(root, text="7", font=("Comic Sans MS",20,), width=3, height=1, fg="#FF
 tk.Button(root, text="8", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#332833", command=lambda: show_numbers("8")).place(x=94,y=154)
 tk.Button(root, text="9", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#332833", command=lambda: show_numbers("9")).place(x=166,y=154)
 tk.Button(root, text=".", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#332833", command=lambda: show_numbers(".")).place(x=166,y=385)
-tk.Button(root, text="C", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#514051", command=lambda: clear()).place(x=22,y=77)
+tk.Button(root, text="C", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#7F667F", command=lambda: clear()).place(x=22,y=77)
 tk.Button(root, text="+", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#514051", command=lambda: show_numbers("+")).place(x=238,y=231)
 tk.Button(root, text="-", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#514051", command=lambda: show_numbers("-")).place(x=238,y=154)
 tk.Button(root, text="x", font=("Comic Sans MS",20,), width=3, height=1, fg="#FFFFFF", bg="#514051", command=lambda: show_numbers("*")).place(x=238,y=77)
